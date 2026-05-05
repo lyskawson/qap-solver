@@ -1,0 +1,16 @@
+[project]
+name = "qap-solver"
+version = "0.1.0"
+description = "QAP solver with Branch and Bound and Beam Search"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.9",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
