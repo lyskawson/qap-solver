@@ -11,11 +11,6 @@ class QAPInstance:
 
 
 def generate_instance(n: int, seed: int) -> QAPInstance:
-    """Generate a QAP instance using the shared RNG per lab specification.
-
-    Flow matrix is generated first (row by row, skipping diagonal),
-    then distance matrix in the same order. Diagonal entries are 0.
-    """
     rng = RandomNumberGenerator(seed)
 
     flow = tuple(

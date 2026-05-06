@@ -3,7 +3,7 @@ from src.instance import generate_instance
 from src.solver_base import SolverResult
 from src import brute_force, branch_and_bound, beam_search
 
-DEMO_N = 6
+DEMO_N = 9
 DEMO_SEED = 42
 BEAM_WIDTH = 3
 
