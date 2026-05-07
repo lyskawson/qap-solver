@@ -1,4 +1,3 @@
-"""Generate plots from benchmark.csv."""
 import csv
 import sys
 from collections import defaultdict
